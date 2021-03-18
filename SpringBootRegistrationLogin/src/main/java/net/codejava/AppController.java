@@ -36,7 +36,7 @@ public class AppController {
 	public String processRegister(User user, HttpServletRequest request) 
 			throws UnsupportedEncodingException, MessagingException {
 		service.register(user, getSiteURL(request));		
-		return "register_success";
+		return "ver";
 	}
 	
 	@GetMapping("/users")

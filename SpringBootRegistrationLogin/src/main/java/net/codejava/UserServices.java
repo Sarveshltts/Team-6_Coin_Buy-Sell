@@ -33,8 +33,8 @@ public class UserServices {
 	private void sendVerificationEmail(User user, String siteURL) 
 			throws MessagingException, UnsupportedEncodingException {
 		String toAddress = user.getEmail();
-		String fromAddress = "your email address";
-		String senderName = "your company name";
+		String fromAddress = "grp699999@gmail.com";
+		String senderName = "Group 6";
 		String subject = "Please verify your registration";
 		String content = "Dear [[name]],<br>"
 				+ "Please click the link below to verify your registration:<br>"
