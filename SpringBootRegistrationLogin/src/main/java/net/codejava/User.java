@@ -26,27 +26,6 @@ public class User {
 	
 	@Column(name = "last_name", nullable = false, length = 20)
 	private String lastName;
-	
-	@Column(name = "verification_code", length = 7)
-    private String verificationCode;
-	
-	private boolean enabled;
-
-	public String getVerificationCode() {
-		return verificationCode;
-	}
-
-	public void setVerificationCode(String verificationCode) {
-		this.verificationCode = verificationCode;
-	}
-
-	public boolean isEnabled() {
-		return enabled;
-	}
-
-	public void setEnabled(boolean enabled) {
-		this.enabled = enabled;
-	}
 
 	public Long getId() {
 		return id;
@@ -88,8 +67,6 @@ public class User {
 		this.lastName = lastName;
 	}
 	
-	public String getFullName() {
-		return this.firstName + " " + this.lastName;
-	}
+	
 	
 }
