@@ -79,8 +79,24 @@
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>webjars-locator-core</artifactId>
-		</dependency>		
+		</dependency>	
+		<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-netflix-eureka-client</artifactId>
+    <version>3.0.2</version>
+</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-netflix-eureka-server -->
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-netflix-eureka-server</artifactId>
+    <version>3.0.2</version>
+</dependency>
+		
 	</dependencies>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-netflix-eureka-client -->
+
+
 
 	<build>
 		<plugins>
@@ -90,5 +106,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<repositories>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+		</repository>
+	</repositories>
 
 </project>

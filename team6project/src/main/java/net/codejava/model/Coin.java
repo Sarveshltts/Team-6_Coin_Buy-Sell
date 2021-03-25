@@ -2,11 +2,14 @@ package net.codejava.model;
 
 import java.io.Serializable;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 @Entity
 public class Coin  implements Serializable
 {
@@ -26,9 +29,27 @@ private int price;
 private String description;
 @Column(name = "buy", columnDefinition = "varchar(5) default Buy")
 private String buy = "Buy";
+@Column(name = "email",length = 20)
+private String email;
 
-
-
+public Coin(int coinid, String coinname, String period, int weight, int price, String description, String buy,
+		String email) {
+	super();
+	this.coinid = coinid;
+	this.coinname = coinname;
+	this.period = period;
+	this.weight = weight;
+	this.price = price;
+	this.description = description;
+	this.buy = buy;
+	this.email = email;
+}
+public String getEmail() {
+	return email;
+}
+public void setEmail(String email) {
+	this.email = email;
+}
 public int getCoinid() {
 	return coinid;
 }

@@ -23,7 +23,7 @@
        <li> <a th:href="@{/buyfg}">Buy</a></li>
         <li><a th:href="@{/Coinregistration}">Sell</a></li>
       <li><a th:href="@{/logout}"><span class="glyphicon glyphicon-log-in"></span> Sign Out</a></li>
-      
+      <li style="margin-top: 18px;color: white;margin-left: 250px"> Welcome <b>[[${#request.userPrincipal.principal.fullName}]]</b></li>
       
       </ul>
   </div>
@@ -56,6 +56,17 @@
 					<td th:text="${Coin.price}"></td>
 					<td th:text="${Coin.weight}"></td>
 					<td><a th:href="@{/BuyerRegistration/cid={cid} (cid=${Coin.coinid})}" th:text="${Coin.buy}"></a></td>
+				</tr>
+			</tbody>
+			<tbody style="color:white;">
+				<tr th:each="Coin: ${listSellers}">
+					<td th:text="${Coin.coinid}"></td>
+					<td th:text="${Coin.coinname}"></td>
+					<td th:text="${Coin.description}"></td>
+					<td th:text="${Coin.period}"></td>
+					<td th:text="${Coin.price}"></td>
+					<td th:text="${Coin.weight}"></td>
+					<td th:text="${Coin.buy}"></td>
 				</tr>
 			</tbody>
 		</table>

@@ -27,6 +27,12 @@ body {font-family: "Lato", sans-serif;background: url(https://i0.wp.com/www.eart
 <div style="margin-left: 40%;margin-top: 20%;">
 <a th:href="@{/buyfg}"><button class="w3-button w3-jumbo" > BUY</button></a>
 <a th:href="@{/Coinregistration}"><button class="w3-button w3-jumbo" >SELL</button></a>
+<div class="form-group row">
+				<label style="color:white; " class="col-4 col-form-label">Email</label>
+				<div class="col-8">
+					<input type="text" name="email" th:value="${email}" style="width:300px;margin-left:170px;" class="form-control" 
+							required>
+				</div>
 </div>
 
 </body>

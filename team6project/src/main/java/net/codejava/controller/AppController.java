@@ -73,7 +73,7 @@ public class AppController {
 	@GetMapping("/up")
 	public ModelAndView updatebla(Model model)
 	{
-		List<Coin> listBuyers = CoinRepo.findAll();
+		List<Coin> listBuyers = CoinRepo.findByBought();
 		model.addAttribute("listBuyers", listBuyers);
 		return new ModelAndView("buyy");
 	}
@@ -81,33 +81,39 @@ public class AppController {
 	
 	@GetMapping("/buyfg")
 	public ModelAndView listBuyers(Model model) {
-		List<Coin> listBuyers = CoinRepo.findAll();
+		
+		List<Coin> listBuyers = CoinRepo.findByBuyId();
 		model.addAttribute("listBuyers", listBuyers);
 		
+		
+		List<Coin> listSellers = CoinRepo.findByBought();
+		model.addAttribute("listSellers", listSellers);
 		return new ModelAndView("buy");
 	}
 	
 	
 	@GetMapping("/Coinregistration")
-	public ModelAndView CoinRegistration(Model model) {
-		
-		
+	public ModelAndView CoinRegistration(Model model,HttpServletRequest req) {
+//		String email=req.getParameter("email");
+//		model.addAttribute("email", email);
 		return new ModelAndView("CoinReg");
 	}
 	@PostMapping("/coin_registeration")
-	public ModelAndView CoinRegister(Coin Coin) {
+	public ModelAndView CoinRegister(Coin Coin,Model model,@RequestParam(value = "email",required = false) String email) {
 		
+		List<Coin> listStuff = CoinRepo.findByEmail(email);
+		model.addAttribute("listStuff", listStuff);
 		CoinRepo.save(Coin);
-		
-		return new ModelAndView("index");
+		return new ModelAndView("Stuff");
 	}
 	
 	@GetMapping("/BuyerRegistration/cid={cid}")
 	public ModelAndView BuyerRegistration(Model model, @PathVariable("cid") int cid) {
 			
+		 
 		
 		    Coin c= CoinRepo.findByCoinId(cid);
-		    c.setBuy("Sold");
+		    c.setBuy("Bought");
 		    CoinRepo.save(c);
 			
 			return new ModelAndView("BuyerRegistration");
@@ -123,8 +129,11 @@ public class AppController {
 			return new ModelAndView("successBuy");
 		}
 		@GetMapping("/remote")
-		public ModelAndView rem(Model model)
+		public ModelAndView rem(Model model,HttpServletRequest req)
 		{
+			User u = new User();
+			String email=u.getEmail();
+			model.addAttribute("email", email);
 			return new ModelAndView("neww");
 		}
 }

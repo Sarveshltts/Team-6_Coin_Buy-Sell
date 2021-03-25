@@ -20,11 +20,7 @@
     <ul class="nav navbar-nav">
       <li ><a th:href="@{/}">Home</a></li>
       <li ><a href="vid.html">Find Us</a></li>
-       <li> <a th:href="@{/buyfg}">Buy</a></li>
-        <li><a th:href="@{/Coinregistration}">Sell</a></li>
-      <li><a th:href="@{/logout}"><span class="glyphicon glyphicon-log-in"></span> Sign Out</a></li>
-      <li style="margin-top: 18px;color: white;margin-left: 250px"> Welcome <b>[[${#request.userPrincipal.principal.fullName}]]</b></li>
-      
+      <li><a th:href="@{/logout}"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
       </ul>
   </div>
 </nav>
@@ -44,29 +40,19 @@
 					<th style="color:white;">Period</th>
 					<th style="color:white;">Price</th>
 					<th style="color:white;">Weight</th>
-					<th style="color:white;">Buy</th>
+					<th style="color:white;">E-mail</th>
 				</tr>
 			</thead>
 			<tbody style="color:white;">
-				<tr th:each="Coin: ${listBuyers}">
+				<tr th:each="Coin: ${listStuff}">
 					<td th:text="${Coin.coinid}"></td>
 					<td th:text="${Coin.coinname}"></td>
 					<td th:text="${Coin.description}"></td>
 					<td th:text="${Coin.period}"></td>
 					<td th:text="${Coin.price}"></td>
 					<td th:text="${Coin.weight}"></td>
-					<td><a th:href="@{/BuyerRegistration/cid={cid} (cid=${Coin.coinid})}" th:text="${Coin.buy}"></a></td>
-				</tr>
-			</tbody>
-			<tbody style="color:white;">
-				<tr th:each="Coin: ${listSellers}">
-					<td th:text="${Coin.coinid}"></td>
-					<td th:text="${Coin.coinname}"></td>
-					<td th:text="${Coin.description}"></td>
-					<td th:text="${Coin.period}"></td>
-					<td th:text="${Coin.price}"></td>
-					<td th:text="${Coin.weight}"></td>
-					<td th:text="${Coin.buy}"></td>
+				    <td th:text="${Coin.email}"></td>
+				
 				</tr>
 			</tbody>
 		</table>
