@@ -47,7 +47,7 @@ Name                           |   PS No.  |    Features    | Issuess Raised |  
 *Home page
     ![Image of screenshot](https://user-images.githubusercontent.com/78859930/112817656-4ca54a00-90a0-11eb-8fbc-2b19ccc8fbc3.png)
 
-* Sell
+* ###Sell
     * Home 
      * ![Screenshot (13)](https://user-images.githubusercontent.com/78859930/112817872-8bd39b00-90a0-11eb-9215-efdee0c9936b.png)
     * After clicking on sell:- Coin registration
@@ -55,7 +55,7 @@ Name                           |   PS No.  |    Features    | Issuess Raised |  
     * After Coin Registration
        ![Screenshot (16)](https://user-images.githubusercontent.com/78859930/112818390-1a481c80-90a1-11eb-9d89-555ca832e3d2.png)
 
-* Buy
+* ###Buy
     * Home
         ![Screenshot (13)](https://user-images.githubusercontent.com/78859930/112817872-8bd39b00-90a0-11eb-9215-efdee0c9936b.png)
     * Buy Page 
@@ -69,9 +69,9 @@ Name                           |   PS No.  |    Features    | Issuess Raised |  
 ---------
 # Test Plan For Coin Buy/Sell System
 
-Registration and Login Test Cases:
+###Registration and Login Test Cases:
 
-- Positive Test Cases
+- ####Positive Test Cases
 
 
 |SL.NO.|Test Case|Expected Result|Test Result|
@@ -82,7 +82,7 @@ Registration and Login Test Cases:
 |4|After Successful registration, user clicks on login button |Login form opens|Successful|
 |4|Enters registration details in correct format|User is successfully logged in and Home Page opens.|Successful|
 
-- Negative Test Cases
+- ####Negative Test Cases
 
 |SL.NO.|Test Case|Expected Result|Test Result|
 | - | - | - | - |
@@ -90,7 +90,7 @@ Registration and Login Test Cases:
 |2|User tries to sign up with invalid email id|Could not sign up because email verification is necessary in order to get access|Successful|
 |3|Enters invalid credentials in the login page |Shows exception and asks user to sign up first.|Successful|
 
-Coin Registration form:
+###Coin Registration form:
 
 
 |SL.NO.|Test Case|Expected Result|Test Result|
@@ -103,9 +103,9 @@ Coin Registration form:
 
 
 
-Checkout flow Test Cases:
+###Checkout flow Test Cases:
 
-- Positive Test Cases
+- ####Positive Test Cases
 
 |SL.NO.|Test Case|Expected Result|Test Result|
 | - | - | - | - |
@@ -115,7 +115,7 @@ Checkout flow Test Cases:
 
 
 
-- Negative Test Cases
+- ####Negative Test Cases
 
 |SL.NO.|Test Case|Expected Result|Test Result|
 | - | - | - | - |
