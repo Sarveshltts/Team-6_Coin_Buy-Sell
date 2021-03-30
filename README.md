@@ -48,7 +48,8 @@ Name                           |   PS No.  |    Features    | Issuess Raised |  
     ![Image of screenshot](https://user-images.githubusercontent.com/78859930/112817656-4ca54a00-90a0-11eb-8fbc-2b19ccc8fbc3.png)
 
 #### Sell
-    * Home 
+    
+  * Home 
      * ![Screenshot (13)](https://user-images.githubusercontent.com/78859930/112817872-8bd39b00-90a0-11eb-9215-efdee0c9936b.png)
     * After clicking on sell:- Coin registration
       ![Screenshot (14)](https://user-images.githubusercontent.com/78859930/112818077-c4737480-90a0-11eb-9777-17808468f1cf.png)  
@@ -56,7 +57,8 @@ Name                           |   PS No.  |    Features    | Issuess Raised |  
        ![Screenshot (16)](https://user-images.githubusercontent.com/78859930/112818390-1a481c80-90a1-11eb-9d89-555ca832e3d2.png)
 
 #### Buy
-    * Home
+   
+   * Home
         ![Screenshot (13)](https://user-images.githubusercontent.com/78859930/112817872-8bd39b00-90a0-11eb-9215-efdee0c9936b.png)
     * Buy Page 
         ![Screenshot (17)](https://user-images.githubusercontent.com/78859930/112818721-73b04b80-90a1-11eb-96b5-89437ed760b2.png)
