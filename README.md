@@ -61,7 +61,7 @@ Name                           |   PS No.  |    Features    | Issuess Raised |  
        ![Screenshot (19)](https://user-images.githubusercontent.com/78859930/112818985-bbcf6e00-90a1-11eb-8322-643fc171cd49.png)
 
 ---------
-Test Plan For Coin Buy/Sell System
+# Test Plan For Coin Buy/Sell System
 
 Registration and Login Test Cases:
 
