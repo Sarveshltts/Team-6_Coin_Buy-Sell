@@ -42,7 +42,7 @@ Name                           |   PS No.  |    Features    | Issuess Raised |  
 * Login
   * ![Image of screenshot](https://user-images.githubusercontent.com/78859930/112817447-12d44380-90a0-11eb-82e3-353360b794ec.png)
  * Register 
-    ![Image of screenshot]( ![Screenshot (12)](https://user-images.githubusercontent.com/78859930/112817559-34cdc600-90a0-11eb-9746-3c7b6b2e7d78.png))
+     ![Screenshot (12)](https://user-images.githubusercontent.com/78859930/112817559-34cdc600-90a0-11eb-9746-3c7b6b2e7d78.png))
 
 *Home page
     ![Image of screenshot](https://user-images.githubusercontent.com/78859930/112817656-4ca54a00-90a0-11eb-8fbc-2b19ccc8fbc3.png)
@@ -62,6 +62,9 @@ Name                           |   PS No.  |    Features    | Issuess Raised |  
         ![Screenshot (17)](https://user-images.githubusercontent.com/78859930/112818721-73b04b80-90a1-11eb-96b5-89437ed760b2.png)
     * Adding buyers Details
        ![Screenshot (19)](https://user-images.githubusercontent.com/78859930/112818985-bbcf6e00-90a1-11eb-8322-643fc171cd49.png)
+    * Sucesss Page 
+       ![Screenshot (21)](https://user-images.githubusercontent.com/78859930/112946105-c433b180-9152-11eb-8aa6-411c31a5444d.png)
+
 
 ---------
 # Test Plan For Coin Buy/Sell System
