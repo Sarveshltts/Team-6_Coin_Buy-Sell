@@ -1,7 +1,7 @@
 ### Coin Buy and Sell (SikkAass) Application (SpringBoot Web and Microservices Services)
 [![Code Quality Scores](https://www.code-inspector.com/project/18990/score/svg)](https://frontend.code-inspector.com/public/project/18990/GPAConverter-Group6/dashboard)
 [![Code Grade](https://www.code-inspector.com/project/18990/status/svg)](https://frontend.code-inspector.com/public/project/18990/GPAConverter-Group6/dashboard)
-![Inspect](https://github.com/mohnishkheraa/GPAConverter-Group6/workflows/Inspect/badge.svg)
+[![Inspect](https://github.com/Sarveshltts/Team-6_Coin_Buy-Sell/actions/workflows/inspect.yml/badge.svg)](https://github.com/Sarveshltts/Team-6_Coin_Buy-Sell/actions/workflows/inspect.yml)
 ---------
 E-Commerce application developed for performing Admin and Customer user role operations with respective user interfaces. Application is implemented in two parts:
 1. RESTfull web services: API's build using spring boot are used for handling all the back end operations which includes session management. 
