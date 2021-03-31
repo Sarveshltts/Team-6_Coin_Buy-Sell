@@ -5,7 +5,7 @@
 ---------
 E-Commerce application developed for performing Admin and Customer user role operations with respective user interfaces. Application is implemented in two parts:
 1. RESTfull web services: API's build using spring boot are used for handling all the back end operations which includes session management. 
-2. Front End: User interfaces designed and developed using basic fromt end utilising web services for handling appropriate user actions  
+2. Front End: User interfaces designed and developed using basic front end utilising web services for handling appropriate user actions  
 
 # Contributors List
 
