@@ -15,7 +15,7 @@ Name                           |   PS No.  |    Features    | Issuess Raised |  
 `2) Saujanya Tailang`          | 99003688  |  | on operation   | operation issue is resolved  
 `3) Ishan Rawat`         | 99003691  |       | error          | errors are resolved          
 `4) Sarvesh Anand`             | 99003687  |      | error          | errors are resolved          
-`5) Vishal Roshan J`             | 99003689  |       | on bugging     | bugging issue is resolved  
+`5) Vishal Roshan J`             | 99003697  |       | on bugging     | bugging issue is resolved  
 
 #### Features available based on the user role
 * Coin Registration
