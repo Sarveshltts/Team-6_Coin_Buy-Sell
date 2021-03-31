@@ -34,7 +34,7 @@ Name                           |   PS No.  |    Features    | Issuess Raised |  
   * Hibernate with JPA 
   * MySQL
   * Session management
-  * Microservices using Edureka Server
+  * Microservices using Eureka Server
 
 #### Web services project can be found in (https://github.com/99003688/Team-6_Coin_Buy-Sell)
 
